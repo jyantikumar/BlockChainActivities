@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/Day 8/Day8Act1.sol": "Day8Act1"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/Day 8/Day8Act1.sol": {
+			"keccak256": "0x58278adfa34f140d2be310ebadec98fad85e412e95dfe0b10d31ea2aab112d84",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b36e56643ef32e05ef4c10454574269977dbfa3d2db996c54a4c14423f106554",
+				"dweb:/ipfs/QmZ13pToYj3Ty1vazkD4zBhax9iUwVarxQroU6LVGcmxWe"
+			]
+		}
+	},
+	"version": 1
+}
