@@ -3,15 +3,15 @@ pragma solidity ^0.8.30;
 
 contract firstContract{
 
-    function firstFunction() public pure returns (string memory) {
+    function firstFunction() internal pure returns (string memory) {
         return "First Function";
     }
-    function secondFunction() public pure returns (string memory) {
+    function secondFunction() internal pure returns (string memory) {
         return "Second Function";
     }
 }
 contract secContract is firstContract{
-    function thirdFunction() public pure returns (string memory) {
+    function thirdFunction() internal pure returns (string memory) {
         return "Third Function";
     }
 }
