@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getLatestPrice",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/Day 12/Day12_Act1.sol": "EthPrice"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/Day 12/Day12_Act1.sol": {
+			"keccak256": "0x8f4ea9ec91c3a3aa78de2503e42044051c79fd61a5619249fc97c1658884ffae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5ecf774c6f38b9d5cb1dfb1372897ffb88deebda107e7ae03cd8b8f346b04cb",
+				"dweb:/ipfs/QmZPMXhtVp1KUubppg8oZJ3FXe2Gzexm28hnRSg83kGMJE"
+			]
+		}
+	},
+	"version": 1
+}
