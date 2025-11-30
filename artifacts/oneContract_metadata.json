@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "firstFunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "secondFunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/Day 9/Day9_Act3.sol": "oneContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/Day 9/Day9_Act3.sol": {
+			"keccak256": "0x1a78c1133c7b3ad1740ea9422584875eba8fa42f06471eea271e9ecc0220a525",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7cd35b53d28ed25779f26aa949c1937f1958f77a764838677806b86eb4b2c23a",
+				"dweb:/ipfs/QmTKwxH5KmBrDp1B4hrwPW9YxQ1t5fiibvCRLPzGnCqH5T"
+			]
+		}
+	},
+	"version": 1
+}
